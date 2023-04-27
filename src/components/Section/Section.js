@@ -16,6 +16,7 @@ export const Container = styled.div`
   
   background: ${({ theme }) => theme.COLORS.SECTION_BG_COLOR};
 
+  
   > h1 {
     
       font-style: normal;
