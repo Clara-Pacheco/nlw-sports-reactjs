@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyles from '../src/styles/global.js'
 import Theme from '../src/styles/theme.js'
 
-import { App } from './Pages/App'
+import { App } from './Pages/App.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
