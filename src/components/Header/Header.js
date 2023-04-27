@@ -16,6 +16,8 @@ export const Image = styled.div`
     height: 120px;
     border-radius: 50%;
     border: 4px solid ${({ theme }) => theme.COLORS.SVG_INSTAGRAM};
+
+    animation: fromTop .7s .2s backwards;
   }
 
 `;
