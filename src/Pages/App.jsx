@@ -6,18 +6,20 @@ export function App() {
   return (
     <Container>
       <Header />
-      <Section
-        title='Meus jogos'
-        subtitle='Os games que eu mais curto jogar!'
-      />
+      <main>
         <Section
-          title='Canais e streamers'
-          subtitle='Lista de canais e transmissões que não perco!!'
+          title='Meus jogos'
+          subtitle='Os games que eu mais curto jogar!'
         />
-      <Section
-        title='Minhas redes'
-        subtitle='Se conecte comigo agora mesmo!'
-      />
+          <Section
+            title='Canais e streamers'
+            subtitle='Lista de canais e transmissões que não perco!!'
+          />
+        <Section
+          title='Minhas redes'
+          subtitle='Se conecte comigo agora mesmo!'
+        />
+      </main>
     </Container>
   )
 }
