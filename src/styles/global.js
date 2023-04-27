@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+import backgroundImg from '../assets/bg.jpg'
+
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -7,16 +9,20 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
-    /* background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
-    color: ${({ theme }) => theme.COLORS.WHITE}; */
+  ul {
+    list-style: none;
+  }
 
+  body  {
+    flex: 1;
+    background: url(${backgroundImg});
+    background-size: cover;
     -webkit-font-smoothing: antialiased; 
   }
 
   body, input, button, textarea {
-    /* font-family: 'Roboto Slab', serif;
-    font-size: 16px; */
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
     outline: none;
 
   }
