@@ -35,6 +35,32 @@ const gamesListData = [
  
 ]
 
+const channelListData = [
+  {
+    url:'https://www.twitch.tv/maykbrito',
+    imgUrl:'https://static-cdn.jtvnw.net/jtv_user_pictures/9ce11a2b-ec84-44b1-9c76-b8d29df5fef0-profile_image-150x150.png',
+    textAlt:'Imagem de Mayk Brito'
+  },
+
+  {
+    url:'https://www.twitch.tv/jakeliny',
+    imgUrl:'https://static-cdn.jtvnw.net/jtv_user_pictures/caaa9067-d25b-4efb-b7c7-93badfd041a9-profile_image-70x70.png',
+    textAlt:'Imagem de Jakeliny'
+  },
+
+  {
+    url:'https://www.twitch.tv/marcobrunodev',
+    imgUrl:'https://static-cdn.jtvnw.net/jtv_user_pictures/9ee63f92-e4d2-4d3c-a235-1be4f642239a-profile_image-70x70.png',
+    textAlt:'Imagem de Marco Bruno Dev'
+  },
+
+  {
+    url:'https://www.twitch.tv/rafaballerinii',
+    imgUrl:'https://static-cdn.jtvnw.net/jtv_user_pictures/5d664b85-b516-4d64-b3e2-914e58a9d247-profile_image-70x70.png',
+    textAlt:'Imagem de Rafa Ballerini'
+  }
+]
+
 export function App() {
   return (
     <Container>
@@ -64,31 +90,7 @@ export function App() {
           title='Canais e streamers'
           subtitle='Lista de canais e transmissões que não perco!!'
         >
-            <ListItem 
-              url='https://www.twitch.tv/maykbrito'
-              imgUrl='https://static-cdn.jtvnw.net/jtv_user_pictures/9ce11a2b-ec84-44b1-9c76-b8d29df5fef0-profile_image-150x150.png'
-              textAlt='Imagem de Mayk Brito'
-            />  
-
-            <ListItem
-              url='https://www.twitch.tv/jakeliny'
-              imgUrl='https://static-cdn.jtvnw.net/jtv_user_pictures/caaa9067-d25b-4efb-b7c7-93badfd041a9-profile_image-70x70.png'
-              textAlt='Imagem de Jakeliny'
-            /> 
-
-            <ListItem
-              url='https://www.twitch.tv/marcobrunodev'
-              imgUrl='https://static-cdn.jtvnw.net/jtv_user_pictures/9ee63f92-e4d2-4d3c-a235-1be4f642239a-profile_image-70x70.png'
-              textAlt='Imagem de Marco Bruno Dev'
-            />   
-
-            <ListItem
-              url='https://www.twitch.tv/rafaballerinii'
-              imgUrl='https://static-cdn.jtvnw.net/jtv_user_pictures/5d664b85-b516-4d64-b3e2-914e58a9d247-profile_image-70x70.png'
-              textAlt='Imagem de Rafa Ballerini'
-            />   
-            
-
+       
         </Section>
 
         <Section
