@@ -103,6 +103,7 @@ export function App() {
             gamesListData.map((item) => {
               return (
                 <ListItem
+                  key={item.url}
                   url={item.url}
                   imgUrl={item.imgUrl}
                   textAlt={item.textAlt}
@@ -124,6 +125,7 @@ export function App() {
                 return(
                  
                     <ListItemChannels
+                      key={channel.url}
                       url={channel.url}
                       imgUrl={channel.imgUrl}
                       textAlt={channel.textAlt}
@@ -143,6 +145,7 @@ export function App() {
               socialListData.map((item) => {
                 return(
                   <ListItemSocial
+                    key={item.url}
                     url={item.url}
                     imgUrl={item.imgUrl}
                     textAlt={item.textAlt}
