@@ -1,13 +1,13 @@
 import { Container } from './Section.js'
 
-export function Section({ title, subtitle }){
+export function Section({ title, subtitle, children }){
   return (
     <Container>
       <h1>{ title }</h1>
       <h2>{ subtitle }</h2>
-      <div>
-        img
-      </div>
+      <ul>
+        {children}
+      </ul>
     </Container>
   )
 }
