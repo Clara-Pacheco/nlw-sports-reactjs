@@ -15,11 +15,6 @@ export const Container =styled.li`
         transform: scale(1.1)
       }
 
-    }
-
-   
-
-
-    }
-  
+       }
+    } 
 `;
