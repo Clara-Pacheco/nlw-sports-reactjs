@@ -10,11 +10,16 @@ export const Container =styled.li`
       height: 120px;
 
       border-radius: 8px;
+
+        &:hover {
+        transform: scale(1.1)
+      }
+
     }
-  }
 
+   
+
+
+    }
   
-
- 
-
 `;
