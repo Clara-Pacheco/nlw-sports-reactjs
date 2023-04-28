@@ -2,6 +2,8 @@ import { Container } from "./App"
 import { Header } from '../components/Header/Header.jsx'
 import { Section } from '../components/Section/Section.jsx'
 import { ListItem } from "../components/ListItem/ListItem.jsx"
+import { ListItemChannels } from "../components/ListItemChannels/ListItemChannels.jsx"
+import { ListItemSocial } from "../components/ListItemSocial/ListItemSocial.jsx"
 
 import InstagramLogo from '../assets/InstagramLogo.png'
 import TwitchLogo from '../assets/TwitchLogo.png'
@@ -61,6 +63,32 @@ const channelListData = [
   }
 ]
 
+const socialListData = [
+  {
+    url:'https://www.twitch.com',
+    imgUrl:TwitchLogo,
+    textAlt:'Logo Twitch'
+  },
+
+  {
+    url:'https://www.twitter.com',
+    imgUrl:TwitterLogo,
+    textAlt:'Logo Twitter'
+  },
+
+  {
+    url:'https://www.youtube.com',
+    imgUrl: YouTubeLogo,
+    textAlt: 'Logo Youtube'
+  },
+
+  {
+    url:'https://www.instagram.com',
+    imgUrl: InstagramLogo,
+    textAlt:'Logo Instagram'
+  }
+]
+
 export function App() {
   return (
     <Container>
@@ -90,46 +118,39 @@ export function App() {
           title='Canais e streamers'
           subtitle='Lista de canais e transmissões que não perco!!'
         >
-
-          {
-            channelListData.map((channel)=>{
-              return(
-                <ListItem
-                url={channel.url}
-                imgUrl={channel.imgUrl}
-                textAlt={channel.textAlt}
-                />
-              )
-            })
-          }
-       
+          
+            {
+              channelListData.map((channel)=>{
+                return(
+                 
+                    <ListItemChannels
+                      url={channel.url}
+                      imgUrl={channel.imgUrl}
+                      textAlt={channel.textAlt}
+                    />
+                 
+                )
+              })
+            }
+        
         </Section>
 
         <Section
           title='Minhas redes'
           subtitle='Se conecte comigo agora mesmo!'
         >
-            <ListItem
-              url='https://www.twitch.com'
-              imgUrl= {TwitchLogo}
-              textAlt='Logo Twitch'
-            />   
-              <ListItem
-              url='https://www.twitter.com'
-              imgUrl= {TwitterLogo}
-              textAlt='Logo Twitter'
-            />   
-            <ListItem
-              url='https://www.youtube.com'
-              imgUrl= {YouTubeLogo}
-              textAlt='Logo Youtube'
-            />   
-            
-            <ListItem
-              url='https://www.instagram.com'
-              imgUrl= {InstagramLogo}
-              textAlt='Logo Instagram'
-            />   
+            {
+              socialListData.map((item) => {
+                return(
+                  <ListItemSocial
+                    url={item.url}
+                    imgUrl={item.imgUrl}
+                    textAlt={item.textAlt}
+                  />
+                )
+              })
+            }
+       
 
         </Section>
       </main>
