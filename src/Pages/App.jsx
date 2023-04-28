@@ -46,8 +46,14 @@ export function App() {
         >
           { 
           
-            gamesListData.map((game) => {
-              return 
+            gamesListData.map((item) => {
+              return (
+                <ListItem
+                  url={item.url}
+                  imgUrl={item.imgUrl}
+                  textAlt={item.textAlt}
+                />
+              )
            })
 
           }
