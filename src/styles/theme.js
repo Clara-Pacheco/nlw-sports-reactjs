@@ -13,6 +13,8 @@ export default {
     SVG_YOUTUBE: "#F40000",
 
     BORDER_CHANNEL_IMG: "#443E54",
+
+    APP_BG: "#131315"
     
 
   }
