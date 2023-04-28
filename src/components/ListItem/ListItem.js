@@ -1,12 +1,20 @@
 import styled from "styled-components";
 
 export const Container =styled.li`
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   gap: 16;
 
+  > a {
+      > img {
+      width: 90px;
+      height: 120px;
 
+      border-radius: 8px;
+    }
+  }
+
+  
+
+ 
 
 `;
