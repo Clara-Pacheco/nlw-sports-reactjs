@@ -11,6 +11,8 @@ export default {
     SVG_TWITTER: "#2871FF",
     SVG_INSTAGRAM: "#FA41FE",
     SVG_YOUTUBE: "#F40000",
+
+    BORDER_CHANNEL_IMG: "#443E54",
     
 
   }
