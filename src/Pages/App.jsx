@@ -90,6 +90,18 @@ export function App() {
           title='Canais e streamers'
           subtitle='Lista de canais e transmissões que não perco!!'
         >
+
+          {
+            channelListData.map((channel)=>{
+              return(
+                <ListItem
+                url={channel.url}
+                imgUrl={channel.imgUrl}
+                textAlt={channel.textAlt}
+                />
+              )
+            })
+          }
        
         </Section>
 
