@@ -25,7 +25,7 @@ export const Container = styled.div`
       line-height: 160%;
       letter-spacing: -0.47px;
 
-      color: ${({ theme }) => theme.COLORS.  H1_PARAGRAPHY_COLOR};
+      color: ${({ theme }) => theme.COLORS.H1_PARAGRAPHY_COLOR};
   }
 
   > h2 {
