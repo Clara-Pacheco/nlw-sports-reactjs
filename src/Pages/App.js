@@ -9,9 +9,7 @@ export const Container = styled.div`
 
   > main {
     animation: fromBottom .7s backwards;  
-    
+      
   }
-
-   
 
 `;

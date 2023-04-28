@@ -38,9 +38,6 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.H2_PARAGRAPHY_COLOR};
 
   }
-
-
-
   > ul {
     display: flex;
     flex-direction: row;
@@ -54,4 +51,6 @@ export const Container = styled.div`
     margin-top: 24px;
 
   }
+
+  
 `;
