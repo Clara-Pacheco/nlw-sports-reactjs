@@ -41,9 +41,17 @@ export const Container = styled.div`
 
 
 
-  > div {
+  > ul {
     display: flex;
-    justify-content: center;
-    gap: 16;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 302px;
+    height: 120px;
+
+    margin-top: 24px;
+
   }
 `;
