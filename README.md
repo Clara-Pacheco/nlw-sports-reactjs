@@ -13,7 +13,7 @@
 
 # 🎬 NWL - eSports
 
-![Project cover]()
+![Project cover](https://github.com/Clara-Pacheco/nlw-sports-reactjs/blob/main/src/assets/cover.png)
 
 ## 💻 Sobre o desafio
 
@@ -34,9 +34,9 @@ Principais pontos abordados nesse desafio:
 
 O resultado final desse desafio deve ser algo em torno de:
 
-![Project´s preview]()  
+![Project´s preview](https://github.com/Clara-Pacheco/nlw-sports-reactjs/blob/main/src/assets/gif_preview.gif)  
 
-![Project´s preview]()  
+![Project´s preview](https://github.com/Clara-Pacheco/nlw-sports-reactjs/blob/main/src/assets/photo-preview.png)  
 
 <br>  
 
@@ -59,7 +59,9 @@ Aqui neste **[link](https://www.figma.com/file/QrXKO4jQPDNjXprKkBfVu3/NLW-eSport
 
 ## 📝 Sobre  
 
-Este é um dos projetos propostos 
+Este é um dos projetos que desenvolvi durante a NWL e-Sports da **Rocketseat**, na trilha Explorer, onde utilizei as tecnologias HTML, CSS e Javascript para criar um projeto semelhante, mas para torná-lo ainda mais robusto e escalável, decidi reconstruí-lo usando ReactJs.
+Ao fazer essa mudança, além de tornar o projeto mais sofisticado, pude implementar novos recursos e funcionalidades, como o uso de componentes reutilizáveis e a capacidade de gerenciar o estado do aplicativo de forma mais eficiente. Além disso, também pude aprimorar minha compreensão do React e desenvolver minhas habilidades de programação em geral.
+Em resumo, embora o projeto original tenha sido um grande aprendizado, reconstruí-lo usando ReactJs me permitiu levar minhas habilidades de programação para o próximo nível e criar algo ainda mais impressionante e funcional.
 
 <br>  
 
@@ -77,7 +79,7 @@ Este é um dos projetos propostos
 
 🕛 **Status:** Concluído
 
-🌎 **Result Preview:**   [Link](rocketmovies-three.vercel.app)
+🌎 **Result Preview:**   [Link](nlw-sports-reactjs.vercel.app)
 
 <br>  
 
