@@ -1,6 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-import backgroundImg from '../assets/bg.jpg'
 
 export default createGlobalStyle`
   * {
@@ -15,8 +14,7 @@ export default createGlobalStyle`
 
   body  {
     flex: 1;
-    background: url(${backgroundImg});
-    background-size: cover;
+    background-color: ${({ theme }) => theme.COLORS.APP_BG};
     -webkit-font-smoothing: antialiased; 
   }
 
